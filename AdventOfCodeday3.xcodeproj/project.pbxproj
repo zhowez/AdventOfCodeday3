@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4914EADE257DFF90001518B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4914EADD257DFF90001518B1 /* main.cpp */; };
+		4914EAE8257E00DA001518B1 /* betterArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4914EAE6257E00DA001518B1 /* betterArray.cpp */; };
+		4914EAED257E058C001518B1 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4914EAEB257E058C001518B1 /* functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		4914EADA257DFF90001518B1 /* AdventOfCodeday3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCodeday3; sourceTree = BUILT_PRODUCTS_DIR; };
 		4914EADD257DFF90001518B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4914EAE5257DFFA1001518B1 /* map.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+		4914EAE6257E00DA001518B1 /* betterArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = betterArray.cpp; sourceTree = "<group>"; };
+		4914EAE7257E00DA001518B1 /* betterArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = betterArray.hpp; sourceTree = "<group>"; };
+		4914EAEB257E058C001518B1 /* functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
+		4914EAEC257E058C001518B1 /* functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				4914EADD257DFF90001518B1 /* main.cpp */,
+				4914EAE5257DFFA1001518B1 /* map.txt */,
+				4914EAE6257E00DA001518B1 /* betterArray.cpp */,
+				4914EAE7257E00DA001518B1 /* betterArray.hpp */,
+				4914EAEB257E058C001518B1 /* functions.cpp */,
+				4914EAEC257E058C001518B1 /* functions.hpp */,
 			);
 			path = AdventOfCodeday3;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4914EADE257DFF90001518B1 /* main.cpp in Sources */,
+				4914EAED257E058C001518B1 /* functions.cpp in Sources */,
+				4914EAE8257E00DA001518B1 /* betterArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
